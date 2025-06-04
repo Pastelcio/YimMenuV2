@@ -2,7 +2,7 @@ name: Nightly Build
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Roda todo dia às 3h UTC
+    - cron: '0 3 * * *' 
   workflow_dispatch:
 
 concurrency:
